@@ -5,6 +5,7 @@ function TodoInput({ todoInputValue, onUpdateTodoState }) {
       value={todoInputValue}
       name="todoInput"
       style={todoInputStyle}
+      autoComplete="off"
     />
   );
 }
